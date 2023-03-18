@@ -1,0 +1,28 @@
+header img {
+    float:left;
+    padding-right: 20px;
+}
+header h2 {
+    font-style: italic;
+    color:orange;
+    font-size:200%;
+    text-shadow: 2px 2px 2px black;
+}
+header h3 {
+    font-weight: bolder;
+}
+main h3:first-child::first-letter {
+    font-size: 200%;
+}
+main {
+    width: 60%;
+}
+a:link {
+    color: orange;
+}
+a:visited {
+    color:black;
+}
+a:hover {
+    color:green;
+}
